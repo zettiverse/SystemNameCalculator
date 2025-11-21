@@ -26,4 +26,4 @@ jobs:
       - name: Build 🧱
         uses: actions/upload-artifact@v4
         with:
-            run: dotnet build SystemNameCalculator --configuration Release --no-restore
+            path: dotnet build SystemNameCalculator --configuration Release --no-restore
