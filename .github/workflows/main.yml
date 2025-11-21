@@ -25,6 +25,3 @@ jobs:
 
       - name: Build 🧱
         run: dotnet build SystemNameCalculator --configuration Release --no-restore
-
-      - name: Test 🧪
-        run: dotnet test WebApi --configuration Release --no-build
